@@ -11,12 +11,3 @@ Teknologi
 1. Flutter (Dart)
 2. OpenFoodFacts API
 3. Local storage (SQFLite)
-
-Struktur Proyek
-lib/
- ├── pages/
- ├── models/
- ├── services/
- ├── utils/
- └── widgets/
-
