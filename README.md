@@ -1,16 +1,22 @@
-# snackscan
+SnackScan
+SnackScan adalah aplikasi mobile berbasis Flutter yang membantu pengguna mengetahui informasi nutrisi pada snack hanya dengan memindai barcode produk. Data diambil dari OpenFoodFacts API.
 
-A new Flutter project.
+Fitur
+1. Scan barcode produk snack
+2. Menampilkan informasi nutrisi lengkap
+3. Pencarian Produk Snack
+4. Simpan produk favorit
+   
+Teknologi
+1. Flutter (Dart)
+2. OpenFoodFacts API
+3. Local storage (SQFLite)
 
-## Getting Started
+Struktur Proyek
+lib/
+ ├── pages/
+ ├── models/
+ ├── services/
+ ├── utils/
+ └── widgets/
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
